@@ -24,6 +24,7 @@ A possible defense for this is the (relatively) small model size. GPT-2 has been
 Here's an example of a generated quote exhibiting this contradictory behavior:  
   
   
+  
 ![enter link description here](https://i.imgur.com/iYoqbrL.png)
   
   
