@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lora';
+	font-weight: 400;
+}
+
+html{
+	width: 1800px;
+	height: 900px;
+}
+
+.outer_container{
+	position: absolute;
+	width: 1800px;
+	height: 900px;
+}
+
+.outer_container .quote_container{
+	display: table;
+	overflow: hidden;
+
+	position: absolute;
+	width:990px;
+	height:594px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -56%);
+}
+
+.outer_container .signature_container{
+	display: table;
+	overflow: hidden;
+
+	position: absolute;
+	width:460px;
+	height:100px;
+	bottom: 0%;
+	right: 0%;
+	-webkit-transform: translate(-160px, -52px);
+}
+
+.outer_container .logo_container{
+	position: absolute;
+	width:150px;
+	height:150px;
+	bottom: 0%;
+	right: 0%;
+	color; white;
+	-webkit-transform: translate(-25px, -30px);
+}
+
+.outer_container .logo_container .brain-svg{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	display: table-cell;
+	width:60px;
+	height:60px;
+	-webkit-transform: translate(-50%, -50%) scale(2);
+}
+
+.outer_container .quote_container p{
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+}
+
+.outer_container .signature_container p{
+	font-weight: 500;
+	color: white;
+	font-size: 54px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 1px 1px 3px black;
+}

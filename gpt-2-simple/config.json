@@ -1,0 +1,11 @@
+{
+	"model" : "124M",
+	"text_to_train" : "quotes_training.txt",
+	"training_steps" : 160,
+	"sample_every" : 200,
+	"save_every" : 50,
+	"run_name" : "run1",
+	"restore_from" : "fresh",
+	"samples_to_generate" : 1,
+	"model_output_path" : "../data-scraping-and-image-prep/model-output/"
+}

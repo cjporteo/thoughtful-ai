@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: 500px;
+	height: 500px;
+}
+
+.brain-svg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: table-cell;
+	width:300px;
+	height:300px;
+	-webkit-transform: translate(230%, 230%) scale(5);
+}
