@@ -19,7 +19,7 @@ Once we have the .jpg, we post it to Twitter using the Tweepy API.
 ## Output Integrity and Limitations
 I was pretty satisfied overall with the quality of the generated text, but it's far from perfect. Quotes range wildly in coherence - sometimes it creates something far-reaching and whimsical, but other times it just spits out contradictory nonsense.
 
-A possible defense for this is the (relatively) small model size. GPT-2 has been released in four different sizes: 124M, 355M, 762M, and 1.5B. These numbers represent the varying number of parameters present in the model - more parameters means less portability but higher complexity and richer output. Since I planned to deploy this project to the cloud from the start, I opted for the 124M model. I suspect that a lot of the contradictory patterns currently occurring with the 124M model would be ironed out in the bigger versions. 
+A possible defense for this is the (relatively) small model size. GPT-2 has been released in four different sizes: 124M, 355M, 762M, and 1.5B. These numbers represent the varying number of parameters present in the model - more parameters means less portability but higher complexity and richer output. Since I planned to deploy this project to the cloud from the start, I opted for the 124M model. I suspect that a lot of the contradictory patterns currently occurring with the 124M model are ironed out in the bigger versions. 
 
 Here's an example of a generated quote exhibiting this contradictory behavior:  
 ~  
