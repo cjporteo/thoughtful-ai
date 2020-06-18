@@ -1,1 +1,1 @@
-# thoughtful-ai
+# @thoughtfulAi
