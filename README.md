@@ -1,4 +1,4 @@
-# @thoughtfulAi
+# [@thoughtfulAi](https://twitter.com/thoughtfulAi)
 
 This project uses a deep learning language model to generate thought-provoking quotes. Quotes are given a high res nature-themed backdrop and posted to Twitter at [@thoughtfulAi](https://twitter.com/thoughtfulAi). The project is deployed on Google Cloud Compute Engine and posts every 8 hours.
 
