@@ -6,7 +6,7 @@ This project uses a deep learning language model to generate thought-provoking q
 ![enter link description here](https://i.imgur.com/6omsEIM.png)
 ![enter link description here](https://i.imgur.com/tf8oCUi.png)![enter link description here](https://i.imgur.com/o6K7DO4.png)
 ## About
-Text is generated using [GPT-2](https://github.com/openai/gpt-2), a transformer based language model from OpenAI. I finetuned the model on over 3000 inspirational quotes from various authors at [goodreads.com](goodreads.com). In an attempt to boost model integrity, only quotes exceeding a threshold quantity of user likes are used in the training set. Quotes in the dataset come from the likes of Maya Angelou, Roy T. Bennett, Mahatma Gandhi, Oscar Wilde, Eleanor Roosevelt, Albert Einstein, Dr. Seuss, and many other authors. Scraped quotes are added to an SQLite database.
+Text is generated using [GPT-2](https://github.com/openai/gpt-2), a transformer based language model from OpenAI. I finetuned the model on over 3000 inspirational quotes from various authors at [goodreads.com](goodreads.com). In an attempt to boost model integrity, only quotes exceeding a certain threshold of user likes are used in the training set. Quotes in the dataset come from the likes of Maya Angelou, Roy T. Bennett, Mahatma Gandhi, Oscar Wilde, Eleanor Roosevelt, Albert Einstein, Dr. Seuss, and many other authors. Scraped quotes are added to an SQLite database.
 
 I used an adapted version Max Woolf's [gpt-2-simple utility](https://github.com/minimaxir/gpt-2-simple) to finetune the GPT-2 base model to this quote database.
 
