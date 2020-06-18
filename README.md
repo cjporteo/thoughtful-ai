@@ -21,8 +21,10 @@ I was pretty satisfied overall with the quality of the generated text, but it's 
 
 A possible defense for this is the (relatively) small model size. GPT-2 has been released in four different sizes 124M, 355M, 762M, and 1.5B. These numbers represent the varying number of parameters present in the model - more parameters means less portability but higher complexity and richer output. Since I planned to deploy this project to the cloud from the start, I opted for the 124M model. I suspect that a lot of the contradictory patterns currently occurring with the 124M model would be ironed out in the bigger versions. 
 
-Here's an example of a generated quote exhibiting this contradictory behavior:
-\
+Here's an example of a generated quote exhibiting this contradictory behavior:  
+  
+  
 ![enter link description here](https://i.imgur.com/iYoqbrL.png)
-\
+  
+  
 Grammar mistakes in generated text are more prevalent than I would like, and this almost surely can be traced back to grammatical errors in the training set. A good next step for this project would be to run all of the quotes in the database through a spelling and grammar check, to ensure that the model doesn't pick up any bad habits.
