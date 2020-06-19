@@ -16,7 +16,7 @@ def filter_quote(quote, db_list):
 
     blacklist_words = [
             'god',
-            'lord'
+            'lord',
             'jesus',
             'man',
             'woman'
