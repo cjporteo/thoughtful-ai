@@ -19,7 +19,7 @@ def filter_quote(quote, db_list):
             'lord',
             'jesus',
             'man',
-            'woman'
+            'woman',
             'suicide',
             'fuck',
             'shit',
