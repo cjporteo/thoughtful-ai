@@ -14,7 +14,7 @@ Images are sourced using the Unsplash API, fetching a random landscape image fro
 
 I used HTML/CSS to overlay the text, signature, and SVG logo. The .html then gets converted to .jpg using `imgkit` and `wkhtmltopdf`. I played around with the idea of just using PIL (Python Image Library) to do the overlays, but some of my requirements like drop shadow and format-obeying text wrapping proved difficult to implement - so I went the CSS route.
 
-Once we have the .jpg, we post it to Twitter using the Tweepy API.
+Once we've rendered the .jpg, we post it to Twitter using the Tweepy API.
 
 ## Output Integrity and Limitations
 I was pretty satisfied overall with the quality of the generated text, but it's far from perfect. Quotes range wildly in coherence - sometimes it creates something far-reaching and whimsical, but other times it just spits out contradictory nonsense.
