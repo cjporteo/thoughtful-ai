@@ -55,7 +55,7 @@ tornado==6.0.4
 tqdm==4.46.0
 traitlets==4.3.3
 tweepy==3.8.0
-urllib3==1.25.9
+urllib3==1.26.5
 Wand==0.6.1
 wcwidth==0.2.2
 Werkzeug==1.0.1
